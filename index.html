@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P Mohammed Zakki Adnaan | Creative Developer</title>
+
+    <!-- Fonts: Space Grotesk (Display) & JetBrains Mono (Code) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="dark-mode">
+
+    <!-- Scanlines Overlay -->
+    <div class="scanlines"></div>
+
+    <!-- Cursor -->
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <!-- Nav -->
+    <nav class="dock-wrapper">
+        <a href="#home" class="dock-item hover-trigger" title="Home"><i class="fas fa-home"></i></a>
+        <a href="#about" class="dock-item hover-trigger" title="About"><i class="fas fa-user"></i></a>
+        <a href="#skills" class="dock-item hover-trigger" title="Skills"><i class="fas fa-tools"></i></a>
+        <a href="#education" class="dock-item hover-trigger" title="Education"><i class="fas fa-graduation-cap"></i></a>
+        <a href="#achievements" class="dock-item hover-trigger" title="Achievements"><i class="fas fa-trophy"></i></a>
+        <a href="#work" class="dock-item hover-trigger" title="Work"><i class="fas fa-code"></i></a>
+        <a href="#contact" class="dock-item hover-trigger" title="Contact"><i class="fas fa-paper-plane"></i></a>
+        <button id="theme-toggle" class="dock-item hover-trigger" title="Toggle Theme"><i
+                class="fas fa-moon"></i></button>
+    </nav>
+
+    <main class="container">
+
+        <!-- HERO -->
+        <section id="home" style="height: 100vh; display: flex;">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <div class="mono" style="margin-bottom: 10px;">PROCESS_READY</div>
+                    <h1 class="hero-name">
+                        <!-- Updated First Line -->
+                        <span class="glitch-wrapper">
+                            <span class="glitch" data-text="P MOHAMMED">P MOHAMMED</span>
+                        </span><br>
+                        <!-- Updated Second Line -->
+                        <span class="glitch-wrapper">
+                            <span class="glitch" data-text="ZAKKI ADNAAN">ZAKKI ADNAAN</span>
+                        </span>
+                    </h1>
+                    <div
+                        style="display: flex; align-items: center; gap: 20px; margin-top: 30px; flex-wrap: wrap; justify-content: center;">
+                        <div
+                            style="width: 10px; height: 10px; background: var(--accent-primary); border-radius: 50%; box-shadow: 0 0 10px var(--accent-primary); animation: pulse 2s infinite;">
+                        </div>
+                        <span class="mono" style="color: var(--text-dim);">FRONTEND developer / web developer</span>
+                    </div>
+                    <div style="margin-top: 40px; display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+                        <a href="Zakki Adnaan resume.pdf" target="_blank" class="btn-resume hover-trigger animate-float">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual hover-trigger animate-float">
+                    <div class="hero-img-box">
+                        <img src="zakki.jpg" alt="Zakki Adnaan" class="hero-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about">
+            <div class="section-header">
+                <h2>THE PATH BEGINS</h2>
+                <span class="section-num">01</span>
+            </div>
+            <div
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 50px; align-items: center;">
+                <p style="font-size: 1.2rem; color: var(--text-dim);">
+                    I am a <strong style="color: var(--text-main);">Frontend Developer</strong> and UX/UI enthusiast,
+                    obsessed with transforming complex requirements into simple, elegant digital experiences. My focus
+                    is on building robust applications that are not only aesthetically pleasing but also optimized for
+                    performance and accessibility. I thrive in the entire frontend lifecycle—from conceptualizing clean,
+                    responsive layouts to deploying pixel-perfect, production-ready code. I believe in continuous
+                    learning and leveraging modern tooling to solve real-world problems.
+                </p>
+                <div class="sys-log-card hover-trigger">
+                    <span class="mono" style="color: var(--accent-secondary);">Current_Status:</span>
+                    <h3 style="font-size: 2rem; margin-top: 10px;">Open for Work</h3>
+                    <p class="mono" style="margin-top: 10px; color: var(--text-dim);">Ready to deploy remotely or
+                        on-site.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills">
+            <div class="section-header">
+                <h2>System Capabilities</h2>
+                <span class="section-num">02</span>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <i class="fas fa-code"></i><span class="mono">CORE_LANGUAGES</span>
+                        <div class="skill-line"></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag hover-trigger"><i class="fab fa-html5"></i> HTML5</span>
+                        <span class="skill-tag hover-trigger"><i class="fab fa-css3-alt"></i> CSS3</span>
+                        <span class="skill-tag hover-trigger"><i class="fab fa-js"></i> JavaScript ES6+</span>
+                        <span class="skill-tag hover-trigger"><i class="fab fa-python"></i> Python</span>
+                        <span class="skill-tag hover-trigger"><i class="fab fa-php"></i> PHP</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <i class="fas fa-layer-group"></i><span class="mono">FRAMEWORKS</span>
+                        <div class="skill-line"></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag hover-trigger"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                        <span class="skill-tag hover-trigger"><i class="fab fa-wordpress"></i> WordPress</span>
+                        <span class="skill-tag hover-trigger">Tailwind CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <i class="fas fa-terminal"></i><span class="mono">DEV_OPS</span>
+                        <div class="skill-line"></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag hover-trigger"><i class="fab fa-git-alt"></i> Git</span>
+                        <span class="skill-tag hover-trigger"><i class="fab fa-github"></i> GitHub</span>
+                        <span class="skill-tag hover-trigger">Netlify</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section id="education">
+            <div class="section-header">
+                <h2>Education Logs</h2>
+                <span class="section-num">03</span>
+            </div>
+            <div class="edu-grid">
+                <div class="sys-log-card hover-trigger">
+                    <span class="sys-date">// 2023 - 2026 (Ongoing)</span>
+                    <span class="sys-title">BCA (Computer Applications)</span>
+                    <span class="sys-loc">Islamiah College (Autonomous), Vaniyambadi</span>
+                    <p style="margin-top: 15px; font-size: 0.9rem; color: var(--text-dim);">
+                        Currently in the 4th semester, building a solid foundation in programming, databases, and
+                        advanced web development. Actively applying knowledge to live projects.
+                    </p>
+                </div>
+                <div class="sys-log-card hover-trigger">
+                    <span class="sys-date">// 2021 - 2023</span>
+                    <span class="sys-title">Higher Secondary Education</span>
+                    <span class="sys-loc">Islamiah Higher Secondary School, Pernambut</span>
+                    <p style="margin-top: 15px; font-size: 0.9rem; color: var(--text-dim);">
+                        Focused on core computer subjects, algorithms, and logical reasoning, which ignited an early and
+                        intense interest in front-end web technologies.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACHIEVEMENTS -->
+        <section id="achievements">
+            <div class="section-header">
+                <h2>Achievements</h2>
+                <span class="section-num">04</span>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card hover-trigger">
+                    <div class="achievement-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="achievement-number" id="project-count">14</div>
+                    <div class="achievement-title">Projects Completed</div>
+                    <div class="achievement-desc">Successfully delivered web applications across various domains</div>
+                </div>
+                <div class="achievement-card hover-trigger">
+                    <div class="achievement-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="achievement-number">5+</div>
+                    <div class="achievement-title">Happy Clients</div>
+                    <div class="achievement-desc">Satisfied clients with successful project deliveries</div>
+                </div>
+                <div class="achievement-card hover-trigger">
+                    <div class="achievement-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="achievement-number">3+</div>
+                    <div class="achievement-title">Years Learning</div>
+                    <div class="achievement-desc">Consistent growth in web development skills and technologies</div>
+                </div>
+                <div class="achievement-card hover-trigger">
+                    <div class="achievement-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="achievement-number">100%</div>
+                    <div class="achievement-title">Success Rate</div>
+                    <div class="achievement-desc">All projects completed and deployed successfully</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="work">
+            <div class="section-header">
+                <h2>Repository</h2>
+                <span class="section-num">05</span>
+            </div>
+            <div id="project-list">
+                <div class="mono">Fetching Data...</div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" style="text-align: center; align-items: center;">
+            <div class="mono" style="margin-bottom: 20px; color: var(--accent-secondary);">// TERMINATE_SESSION</div>
+            <h2 style="font-size: clamp(2rem, 6vw, 5rem); line-height: 1;">
+                <a href="mailto:zakkiadnan05@gmail.com" class="hover-trigger"
+                    style="text-decoration: none; color: var(--text-main);">Let's Talk.</a>
+            </h2>
+
+            <p
+                style="max-width: 600px; margin: 30px auto 0; color: var(--text-dim); font-size: 1.1rem; line-height: 1.6;">
+                I am actively seeking new opportunities to contribute my skills in frontend development.
+                Whether you have a question, a project proposal, or just want to say hi,
+                feel free to drop a message. I'll try my best to get back to you!
+            </p>
+
+            <div style="margin-top: 50px; display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+                <a href="Zakki Adnaan resume.pdf" target="_blank" class="btn-resume hover-trigger">
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- DETAILED FOOTER -->
+    <footer class="system-footer">
+        <div class="container">
+            <div class="footer-grid">
+
+                <!-- Column 1: Brand -->
+                <div class="footer-col">
+                    <h3 class="footer-logo mono hover-trigger" onclick="window.scrollTo(0,0)">CODEBY<span
+                            style="color:var(--accent-primary)">ZAKKI.IN</span></h3>
+                    <p class="footer-desc">
+                        Crafting robust digital ecosystems with clean code and modern aesthetics. Always exploring new
+                        technologies to build better user experiences.
+                    </p>
+                </div>
+
+                <!-- Column 2: Navigation -->
+                <div class="footer-col footer-links">
+                    <h4 class="footer-heading mono">// NAVIGATION</h4>
+                    <ul>
+                        <li><a href="#home" class="hover-trigger">Home</a></li>
+                        <li><a href="#about" class="hover-trigger">About</a></li>
+                        <li><a href="#skills" class="hover-trigger">Skills</a></li>
+                        <li><a href="#achievements" class="hover-trigger">Achievements</a></li>
+                        <li><a href="#work" class="hover-trigger">Selected Work</a></li>
+                        <li><a href="#contact" class="hover-trigger">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Contact Details -->
+                <div class="footer-col footer-contact">
+                    <h4 class="footer-heading mono">// CONNECT</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Pernambut,Tamil Nadu, India</p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:9342954510" class="hover-trigger">+91 93429 54510</a>
+                    </p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:zakkiadnan05@gmail.com"
+                            class="hover-trigger">zakkiadnan05@gmail.com</a></p>
+
+                    <div class="footer-socials" style="margin-top: 20px;">
+                        <a href="https://github.com/Zakki-05" target="_blank" class="hover-trigger"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/mohammed-zakki-adnan-p" target="_blank"
+                            class="hover-trigger"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://instagram.com/mr_zakki_05" target="_blank" class="hover-trigger"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <span>&copy; 2025 P Mohammed Zakki Adnaan. All Rights Reserved.</span>
+                <span class="mono">Designed with <i class="fas fa-bolt"
+                        style="color: var(--accent-secondary)"></i></span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
