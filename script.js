@@ -1,6 +1,12 @@
 /* --- CURSOR --- */
         const cursorDot = document.getElementById('cursor-dot');
         const cursorOutline = document.getElementById('cursor-outline');
+        
+        function trackDownload() {
+    console.log('Resume download initiated');
+    // You can add analytics tracking here if needed
+    // Example: gtag('event', 'download', { 'file_name': 'resume' });
+}
 
         window.addEventListener('mousemove', (e) => {
             cursorDot.style.left = `${e.clientX}px`;
