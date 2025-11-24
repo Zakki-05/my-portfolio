@@ -141,7 +141,7 @@
                 },
                 "Valid-Register-Form": {
                     github: "https://github.com/Zakki-05/valid-register-form",
-                    live: "https://valid-rehister-form-by-zakki-05.netlify.app/",
+                    live: "https://valid-register-form-by-zakki-05.netlify.app/",
                     description: "Form validation with user-friendly feedback",
                     topics: ["HTML", "CSS", "JavaScript", "Forms"]
                 },
